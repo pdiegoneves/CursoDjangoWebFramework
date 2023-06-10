@@ -16,3 +16,11 @@ CTRL + SHIFT + P -> select interpreter -> selecionar python da venv
 
 pip install pip --upgrade => para atualizar o pip
 pip install setuptools wheel --upgrade
+
+# iniciar um projeto
+python -m pip install pip setuptools wheel --upgrade
+
+criar ambiente virtual
+python -m venv venv 
+source venv/bin/activate
+pip install django

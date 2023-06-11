@@ -38,4 +38,6 @@ git init
 ssh-keygen
 ```
 
+Repositório padrão
+https://github.com/luizomf/curso-django-projeto1
 

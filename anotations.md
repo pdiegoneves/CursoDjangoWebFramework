@@ -41,3 +41,12 @@ ssh-keygen
 Repositório padrão
 https://github.com/luizomf/curso-django-projeto1
 
+# criar projeto django
+django-admin startproject projeto .
+
+O . no final indica que o django deve jogar os arquivos na pasta projeto
+
+## instalar pelo arquivo requirements
+pip install -r requirements.txt
+
+# Entendendo um projeto django

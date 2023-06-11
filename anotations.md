@@ -24,3 +24,18 @@ criar ambiente virtual
 python -m venv venv 
 source venv/bin/activate
 pip install django
+
+# configurar git
+
+```
+git config --global user.name "Diego Neves"
+git config --global user.email "pdcassiano@gmail.com"
+git config --global init.defaultBranch main
+git init
+```
+## Criar chave ssh
+```
+ssh-keygen
+```
+
+

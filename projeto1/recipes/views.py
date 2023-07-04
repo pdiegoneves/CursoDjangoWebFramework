@@ -7,11 +7,3 @@ def home(request):
     return render(request, 'recipes/home.html', status=201, context={
         'name': 'Luiz Otávio', 
     })
-
-
-def contato(request):
-    return render(request, 'recipes/contato.html')
-
-
-def sobre(request):
-    return HttpResponse('SOBRE 1')

@@ -2,19 +2,17 @@
 
 <body>
     {% include 'recipes/partials/header.html'  %}
+    {% include 'recipes/partials/search.html'  %}
     
-    <div class="search-container">
-        <div class="container">
-            <form action="" class="search-form">
-                <input type="search" class="search-input" name="search">
-                <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
-            </form>
+
+    <main class="main-content-container">
+        <div class="main-content main-content-list container">
+            {% include 'recipes/partials/recipe.html' %}
+
         </div>
+    </main>
 
-    </div>
-        .
-
-
+    {% include 'recipes/partials/footer.html' %}
 
     <!-- FONT-AWSOME -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

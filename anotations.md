@@ -50,3 +50,21 @@ O . no final indica que o django deve jogar os arquivos na pasta projeto
 pip install -r requirements.txt
 
 # Entendendo um projeto django
+
+
+
+
+# Adicionando caminhos staticos
+no settings.py adicionar
+```
+STATICFILES_DIRS = [
+    BASE_DIR / 'base_static',
+]
+
+STATIC_ROOT = BASE_DIR / 'static'
+```
+
+no terminal
+```
+python.exe .\manage.py collectstatic
+```

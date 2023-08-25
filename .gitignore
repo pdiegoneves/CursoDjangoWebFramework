@@ -132,3 +132,4 @@ static/
 
 #retornado apenas para o curso
 !db.sqlite3
+!media

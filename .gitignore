@@ -130,7 +130,7 @@ db copy.sqlite3
 static/
 
 
-#retornado apenas para o curso
+#retornado apenas para o curso 
 !db.sqlite3
 !media
 !static

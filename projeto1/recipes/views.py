@@ -18,7 +18,10 @@ def category(request, category_id):
     })
 
 def recipe(request, id):
-    recipe = Recipe.objects.filter(id = id, is_published=True).first()
+    # recipe = Recipe.objects.filter(pk = id, is_published=True).first()
+
+    recipe = get_object_or_404(Recipe, pk = id, is_published=True)
+
     return render(request, 'recipes/pages/recipe-view.html', status=201, context={
         'recipe': recipe, 
         'is_detail_page': True,

@@ -68,3 +68,8 @@ no terminal
 ```
 python.exe .\manage.py collectstatic
 ```
+
+
+# Testes
+
+Vamos usar o pytest com runner

@@ -73,3 +73,22 @@ python.exe .\manage.py collectstatic
 # Testes
 
 Vamos usar o pytest com runner
+
+instalar
+```
+pip install pytest pytest-django
+```
+
+criar o pytest.ini na raiz
+
+```
+[pytest]
+DJANGO_SETTINGS_MODULE = project.settings
+python_files = test.py tests.py test_*.py tests_*.py *_test.py *_tests.py
+addopts =
+    --doctest-modules
+    --strict-markers
+markes =
+    slow: Run tests that are slow
+    fast: Run fast tests
+```
